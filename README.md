@@ -11,11 +11,11 @@
 ## Before you start
 
 Download the project files. We've supplied a project folder containing the following files for you to use:
-- [ ] index.html -- the web page for the project
-- [ ] images directory -- contains jpg and png images
-- [ ] sass directory -- contains various Sass files
-- [ ] js directory -- contains a global.js file and a subdirectory -- circle -- with two other helper JavaScript files
-- [ ] icons directory -- you can ignore this folder in your build process, but you will need to copy this folder over to the dist directory for the final build
+- [x] index.html -- the web page for the project
+- [x] images directory -- contains jpg and png images
+- [x] sass directory -- contains various Sass files
+- [x] js directory -- contains a global.js file and a subdirectory -- circle -- with two other helper JavaScript files
+- [x] icons directory -- you can ignore this folder in your build process, but you will need to copy this folder over to the dist directory for the final build
 
 ## Project Instructions
 
@@ -30,7 +30,13 @@ Download the project files. We've supplied a project folder containing the follo
 
 
 ## Extra Credit
-- [ ] As a developer, when I run the default gulp command, it should continuously watch for changes to any .scss file in my project. When there is a change to one of the .scss files, the gulp styles command is run and the files are compiled, concatenated, and minified to the dist folder. My project should then reload in the browser, displaying the changes.
+- [ ] As a developer, when I run the default gulp command, it should continuously watch for changes to any .scss file in my project.
+- [ ] When there is a change to one of the .scss files, the gulp styles command is run and the files are: 
+- [ ] compiled,
+- [ ] concatenated, and
+- [ ] minified
+- [ ] to the dist folder.
+- [ ] My project should then reload in the browser, displaying the changes.
 
 
 ## Future additions
