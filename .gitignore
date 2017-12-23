@@ -52,12 +52,22 @@ jspm_packages
 .yarn-integrity
 
 # Additional files to ignore
+
 js/config.json
 config.json
 config.js
 
-gulpfile.js
+xgulpfile.js
+gulpfiletwo.js
+gulpbase.js
+gulpfileUseref.js
+gulpUseref.js
 
+js/global2.js
+js/app.min.js
+js/app.js.map
 src
 
 css
+
+dist

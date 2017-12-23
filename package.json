@@ -1,7 +1,7 @@
 {
   "name": "gulp-build",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [x] Concatenate and minify the JavaScript files\r - [x] Compile SCSS into CSS\r     - [x] in a concatenated and minified file\r - [x] Generate JavaScript and CSS source maps\r - [x] Compress any JPEG or PNG files\r - [x] All output for the build process should be in a dist folder for distribution or deployment.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,14 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.3"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darryldriedger/Gulp-Build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darryldriedger/Gulp-Build/issues"
+  },
+  "homepage": "https://github.com/darryldriedger/Gulp-Build#readme"
 }

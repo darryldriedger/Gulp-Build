@@ -68,11 +68,11 @@ gulp.task("images", function(){
 //This is for compressing image files
 
 //This is for compressing icon files
-gulp.task("icons", function(){
-  return gulp.src("icons/**")
-    .pipe(imagemin())
-    .pipe(gulp.dest('dist/icons'))
-});
+// gulp.task("icons", function(){
+//   return gulp.src("icons/**")
+//     .pipe(imagemin())
+//     .pipe(gulp.dest('dist/icons'))
+// });
 //This is for compressing icon files
 
 
@@ -81,7 +81,7 @@ gulp.task('watchFiles', function (){
   gulp.watch(['sass/**/*.scss'], ['styles']);
   gulp.watch('js/**/*.js', ['scripts']);
   gulp.watch(['images/**/*'], ['images']);
-  gulp.watch('icons/**/*', ['icons']);
+  // gulp.watch('icons/**/*', ['icons']);
 })
 // this is for watching all files outlined in the watchfiles code
 
@@ -90,7 +90,7 @@ gulp.task('clean', function() {
 });
 
 //need to figure out how to transfer the source folders without the source folder itself
-gulp.task("build", ['clean', 'scripts', 'styles', 'images', 'icons'], function() {
+gulp.task("build", ['clean', 'scripts', 'styles', 'images'], function() {
   return gulp.src(['index.html'], { base: './'})
              .pipe(gulp.dest('dist'));
 });
