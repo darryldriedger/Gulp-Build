@@ -44,13 +44,11 @@ Download the project files. We've supplied a project folder containing the follo
 
 ## Installation
 
-### download or clone the repo
+Download or clone the repo
 ```sh
 $ git clone https://github.com/darryldriedger/Gulp-Build.git
 ```
-[https://github.com/darryldriedger/Gulp-Build.git](x-github-client://openRepo/https://github.com/darryldriedger/Gulp-Build)
-
-### Install Dependencies
+Install Dependencies
 ````sh
 $ cd Gulp-Build
 $ npm install
