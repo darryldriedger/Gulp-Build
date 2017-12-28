@@ -40,7 +40,7 @@ gulp.task("scripts", ['concatScripts'], function(){
       .pipe(uglify())
       .pipe(rename('all.min.js'))//all.min.js
       .pipe(maps.write('./'))
-      .pipe(gulp.dest('dist/js'));
+      .pipe(gulp.dest('dist/scripts'));
 });
   //run above in the console as : == gulp minifyScripts
 // --this is for minifying the previously created all.js file
@@ -52,19 +52,19 @@ gulp.task("compileSass", function(){
     .pipe(sass())
     .pipe(rename('all.css'))
     .pipe(maps.write('./'))
-    .pipe(gulp.dest('dist/css'));
+    .pipe(gulp.dest('dist/styles'));
 });
 //     run above in the console as : == gulp compileSass
 // --this is for compiling sass into a css file/folder
 
 // --this is for minifying the previously created css
 gulp.task("styles", ['compileSass'], function(){
-  return gulp.src("dist/css/all.css")
+  return gulp.src("dist/styles/all.css")
     .pipe(maps.init())
     .pipe(csso())
     .pipe(rename('all.min.css'))
     .pipe(maps.write('./'))
-    .pipe(gulp.dest('dist/css'));
+    .pipe(gulp.dest('dist/styles'));
 });
 //     run above in the console as : == gulp styles
 // --this is for minifying the previously created css
