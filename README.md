@@ -3,8 +3,7 @@
 ## The build process must fulfill the following criteria:
 
 - [x] Concatenate and minify the JavaScript files
-- [x] Compile SCSS into CSS
-      [x] in a concatenated and minified file
+- [x] Compile SCSS into CSS in a concatenated and minified file
 - [x] Generate JavaScript and CSS source maps
 - [x] Compress any JPEG or PNG files
 - [x] All output for the build process should be in a dist folder for distribution or deployment.
@@ -33,11 +32,11 @@ Download the project files. We've supplied a project folder containing the follo
 ## Extra Credit
 - [x] Run the default gulp command, it should continuously watch for changes to any .scss file in my project.
 - [x] When there is a change to one of the .scss files, the gulp styles command is run and the files are:
-      [x] compiled,
-      [x] concatenated, and
-      [x] minified
-      [x] to the dist folder.
-      [x] My project should then reload in the browser, displaying the changes.
+- [x] compiled,
+- [x] concatenated, and
+- [x] minified
+- [x] to the dist folder.
+- [x] My project should then reload in the browser, displaying the changes.      
 
 
 ## Future additions
@@ -45,11 +44,13 @@ Download the project files. We've supplied a project folder containing the follo
 
 ## Installation
 
-download or clone the repo
+### download or clone the repo
 ```sh
-$ git clone [https://github.com/darryldriedger/Gulp-Build.git](x-github-client://openRepo/https://github.com/darryldriedger/Gulp-Build)
+$ git clone https://github.com/darryldriedger/Gulp-Build.git
 ```
-Install Dependencies
+[https://github.com/darryldriedger/Gulp-Build.git](x-github-client://openRepo/https://github.com/darryldriedger/Gulp-Build)
+
+### Install Dependencies
 ````sh
 $ cd Gulp-Build
 $ npm install
